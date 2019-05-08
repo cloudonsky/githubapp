@@ -15,7 +15,7 @@ class BlasController < ApplicationController
   end
 
   # GET /blas/new
-  # old changes
+  # old changes auto-merge-6
   def new
     @bla = Bla.new
   end
