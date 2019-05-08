@@ -7,6 +7,12 @@ class BlasController < ApplicationController
     @blas = Bla.all
   end
 
+  # GET /blas/1
+  # GET /blas/1.json
+  ## Testing auto merge
+  def show
+  end
+
   # GET /blas/new
   # old changes
   def new
