@@ -8,6 +8,7 @@ class BlasController < ApplicationController
   end
 
   # GET /blas/new
+  # old changes
   def new
     @bla = Bla.new
   end
