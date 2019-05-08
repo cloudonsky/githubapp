@@ -10,6 +10,7 @@ class BlasController < ApplicationController
   # GET /blas/1
   # GET /blas/1.json
   ## Testing auto merge
+  ## Making conflict changes
   def show
   end
 
