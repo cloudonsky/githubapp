@@ -7,11 +7,6 @@ class BlasController < ApplicationController
     @blas = Bla.all
   end
 
-  # GET /blas/1
-  # GET /blas/1.json
-  def show
-  end
-
   # GET /blas/new
   def new
     @bla = Bla.new
