@@ -3,6 +3,7 @@ class BlasController < ApplicationController
 
   # GET /blas
   # GET /blas.json
+  # auto-merge-7
   def index
     @blas = Bla.all
   end
